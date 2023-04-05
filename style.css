@@ -231,7 +231,7 @@ ul, ol {
 
 a {
   text-decoration: none;
-  color: #A9BC72; }
+  color: #C3CB92; }
 
 address {
   font-style: normal; }
@@ -256,7 +256,7 @@ form textarea {
  */
 .button, form input[type="submit"], form button, form input[type="reset"] {
   border: none;
-  background: #A9BC72;
+  background: #C3CB92;
   padding: 10px 20px;
   border-radius: 30px;
   color: #121212; }
@@ -1140,7 +1140,7 @@ form textarea {
     border: 2px solid transparent;
     color: white;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 10px;
     -webkit-transition: .3s ease;
             transition: .3s ease;
     display: none;
@@ -1149,8 +1149,8 @@ form textarea {
       .main-navigation .menu-toggle {
         display: inline-block; } }
     .main-navigation .menu-toggle:hover, .main-navigation .menu-toggle:active {
-      border-color: #A9BC72;
-      color: #A9BC72; }
+      border-color: #C3CB92;
+      color: #C3CB92; }
   .main-navigation .menu {
     list-style: none;
     display: inline-block;
@@ -1170,14 +1170,14 @@ form textarea {
       .main-navigation .menu .menu-item a {
         padding: 5px 25px;
         border: 2px solid transparent;
-        border-radius: 30px;
+        border-radius: 5px;
         color: white;
         -webkit-transition: .3s ease;
                 transition: .3s ease;
         font-weight: 400; }
       .main-navigation .menu .menu-item.current-menu-item a, .main-navigation .menu .menu-item:hover a {
-        border-color: #A9BC72;
-        color: #A9BC72; }
+        border-color: #C3CB92;
+        color: #C3CB92; }
 
 .mobile-navigation {
   padding: 30px 0 0;
@@ -1187,7 +1187,7 @@ form textarea {
     .mobile-navigation {
       display: none !important; } }
   .mobile-navigation .menu {
-    background: #86945E;
+    background: #A4B17B;
     list-style: none;
     text-align: center;
     border-radius: 10px;
@@ -1201,7 +1201,7 @@ form textarea {
       .mobile-navigation .menu .menu-item:last-child {
         border-bottom: none; }
       .mobile-navigation .menu .menu-item.current-menu-item a {
-        color: #A9BC72; }
+        color: #C3CB92; }
 
 .hero {
   background-size: cover;
@@ -1214,7 +1214,7 @@ form textarea {
   .find-location input[type="text"] {
     width: 100%;
     padding: 20px 50px 20px 20px;
-    background: #49592A;
+    background: #869665;
     color: white; }
   .find-location input[type="submit"] {
     position: absolute;
@@ -1237,7 +1237,7 @@ form textarea {
     display: table-cell;
     vertical-align: top; }
     .arti-container .arti:nth-child(even) {
-      background-color: #86945E; }
+      background-color: #A4B17B; }
     @media screen and (max-width: 990px) {
       .arti-container .arti {
         display: block;
@@ -1314,7 +1314,7 @@ form textarea {
   margin-bottom: 30px; }
 
 .filter-control {
-  border: 2px solid #86945E;
+  border: 2px solid #A4B17B;
   padding: 5px 5px 5px 20px;
   border-radius: 30px;
   display: inline-block;
@@ -1326,7 +1326,7 @@ form textarea {
     vertical-align: middle; }
 
 .select.control {
-  background: #86945E;
+  background: #A4B17B;
   border-radius: 40px;
   overflow: hidden;
   display: inline-block;
@@ -1396,7 +1396,7 @@ form textarea {
     position: absolute;
     top: 0;
     left: 0;
-    color: #A9BC72;
+    color: #C3CB92;
     font-size: 24px;
     font-size: 1.7142857143em; }
   .news h3 {
@@ -1434,7 +1434,7 @@ form textarea {
   .arrow-list a {
     color: white; }
     .arrow-list a:hover {
-      color: #A9BC72; }
+      color: #C3CB92; }
 
 .photo-grid {
   margin: 0 -5px; }
@@ -1449,8 +1449,8 @@ form textarea {
       height: auto; }
 
 .breadcrumb {
-  background: #86945E;
-  border-radius: 40px;
+  background: #A4B17B;
+  border-radius: 10px;
   padding: 20px 30px;
   font-size: 13px;
   font-size: 0.9285714286em; }
@@ -1507,7 +1507,7 @@ form textarea {
   .entry-content blockquote p {
     font-size: 24px;
     font-size: 1.7142857143rem;
-    color: #A9BC72; }
+    color: #C3CB92; }
 
 .photo {
   position: relative;
@@ -1515,7 +1515,7 @@ form textarea {
   min-height: 190px;
   border-radius: 10px;
   overflow: hidden;
-  background: #86945E;
+  background: #202020;
   margin-bottom: 30px; }
   .photo .photo-preview {
     position: absolute;
@@ -1523,7 +1523,8 @@ form textarea {
     left: 0;
     top: 0;
     bottom: 0;
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
   .photo .photo-details {
     padding: 20px; }
   .photo .photo-title {
@@ -1543,7 +1544,7 @@ form textarea {
   font-family: 'FontAwesome'; }
   .star-rating:before {
     content: "\f005\f005\f005\f005\f005";
-    color: #49592A;
+    color: #869665;
     float: left;
     top: 0;
     left: 0;
@@ -1555,7 +1556,7 @@ form textarea {
     left: 0;
     position: absolute;
     padding-top: 1.5em;
-    color: #A9BC72;
+    color: #C3CB92;
     font-size: 16px; }
   .star-rating span:before {
     content: "\f005\f005\f005\f005\f005";
@@ -1564,7 +1565,7 @@ form textarea {
     left: 0; }
 
 .contact-details {
-  background: #86945E;
+  background: #A4B17B;
   border-radius: 10px;
   overflow: hidden; }
   .contact-details .map {
@@ -1598,14 +1599,14 @@ form textarea {
   border: 2px solid #393c48;
   background: transparent; }
   .contact-form input:not([type="submit"]):hover, .contact-form input:not([type="submit"]):focus, .contact-form textarea:hover, .contact-form textarea:focus {
-    border-color: #A9BC72; }
+    border-color: #C3CB92; }
 .contact-form textarea {
   min-height: 150px; }
 .contact-form .text-right {
   text-align: right; }
 
 .sidebar .widget {
-  background: #86945E;
+  background: #49592A;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px; }
@@ -1635,13 +1636,13 @@ form textarea {
       .sidebar .widget.top-rated .entry-title a {
         color: #bfc1c8; }
     .sidebar .widget.top-rated .rating strong {
-      color: #A9BC72; }
+      color: #C3CB92; }
 
 /*
  * Footer Styles
  */
 .site-footer {
-  background: #212121;
+  background: #202020;
   color: #121212;
   padding: 50px 0; }
   .site-footer .subscribe-form {
@@ -1649,7 +1650,7 @@ form textarea {
     margin-bottom: 30px; }
     .site-footer .subscribe-form input[type="text"] {
       padding: 20px 100px 20px 20px;
-      background: #49592A;
+      background: #869665;
       width: 100%;
       color: #121212; }
     .site-footer .subscribe-form input[type="submit"] {
@@ -1662,8 +1663,8 @@ form textarea {
     height: 40px;
     display: inline-block;
     border-radius: 50%;
-    background: #49592A;
-    color: #A9BC72;
+    background: #869665;
+    color: #C3CB92;
     text-align: center;
     line-height: 2;
     -webkit-transition: .3s ease;
@@ -1671,5 +1672,9 @@ form textarea {
     font-size: 20px;
     font-size: 1.4285714286em; }
     .site-footer .social-links a:hover {
-      background: #A9BC72;
+      background: #C3CB92;
       color: white; }
+
+::placeholder {
+  color: white;
+}
